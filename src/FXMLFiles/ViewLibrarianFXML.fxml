@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="469.0" prefWidth="816.0" style="-fx-background-color: #041C32;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarysystem.ViewLibrarianFXMLController">
+
+      <TableView fx:id="LibrariansTable" layoutX="211.0" layoutY="53.0" prefHeight="344.0" prefWidth="594.0" style="-fx-background-color: #;">
+        <columns>
+          <TableColumn fx:id="LibrarianIdColumn" prefWidth="130.39997100830078" text="Librarian Id" />
+          <TableColumn fx:id="LibrarianNameColumn" prefWidth="120.79998779296875" text="Librarian Name" />
+            <TableColumn fx:id="LibrarianEmailColumn" prefWidth="126.39996337890625" text="Librarian Email" />
+            <TableColumn fx:id="PassColumn" prefWidth="100.79995727539062" text="Password" />
+            <TableColumn fx:id="ContactColumn" minWidth="8.0" prefWidth="103.2000732421875" text="Contact" />
+        </columns>
+      </TableView>
+      <Label layoutX="399.0" layoutY="14.0" prefHeight="35.0" prefWidth="217.0" style="-fx-text-fill: White;" text="Librarians Details">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="deleteButton" layoutX="550.0" layoutY="405.0" mnemonicParsing="false" onAction="#handelbuttonAction" prefHeight="35.0" prefWidth="66.0" text="Delete ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="idLibrarianField" layoutX="321.0" layoutY="405.0" prefHeight="35.0" prefWidth="156.0" promptText="Enter Librarian Id">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="44.0" layoutY="53.0" prefHeight="35.0" prefWidth="123.0" style="-fx-text-fill: white;" text="Update Librarian">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="LibraraianIdField" layoutX="14.0" layoutY="100.0" prefHeight="35.0" prefWidth="182.0" promptText="Librarian Id">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="LibraraianContactField" layoutX="14.0" layoutY="311.0" prefHeight="35.0" prefWidth="182.0" promptText="Contact">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="LibraraianNameField" layoutX="14.0" layoutY="154.0" prefHeight="35.0" prefWidth="182.0" promptText="Librarian Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="LibraraianEmailField" layoutX="14.0" layoutY="207.0" prefHeight="35.0" prefWidth="182.0" promptText="Librarian Email">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="LibraraianPassField" layoutX="14.0" layoutY="260.0" prefHeight="35.0" prefWidth="182.0" promptText="Password">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></TextField>
+      <Button fx:id="updateButton" layoutX="72.0" layoutY="361.0" mnemonicParsing="false" onAction="#handelbuttonAction" prefHeight="35.0" prefWidth="66.0" text="Update">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="label" layoutX="14.0" layoutY="422.0" prefHeight="35.0" prefWidth="182.0" style="-fx-text-fill: .;" textFill="#e1dbdb">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+
+</AnchorPane>

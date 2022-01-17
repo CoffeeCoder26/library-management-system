@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="469.0" prefWidth="496.0" style="-fx-background-color: #041C32;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="librarysystem.AddLibrarianFXMLController">
+   <children>
+      <Label fx:id="addLibrarianLabel" layoutX="136.0" layoutY="14.0" prefHeight="70.0" prefWidth="224.0" style="-fx-text-fill: White;" text="Add New Librarian">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="LibrarianIdField" layoutX="133.0" layoutY="103.0" prefHeight="36.0" prefWidth="230.0" promptText="Librarian Id">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="LibrarianNameField" layoutX="133.0" layoutY="161.0" prefHeight="36.0" prefWidth="230.0" promptText="Librarian Name">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="LibrarianEmailField" layoutX="132.0" layoutY="225.0" prefHeight="36.0" prefWidth="230.0" promptText="Librarian Email">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="LibrarianPassField" layoutX="132.0" layoutY="289.0" prefHeight="36.0" prefWidth="230.0" promptText="Password">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="LibrarianContactField" layoutX="132.0" layoutY="354.0" prefHeight="36.0" prefWidth="230.0" promptText="Contact">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <Button fx:id="AddLibrarianButton" layoutX="191.0" layoutY="407.0" mnemonicParsing="false" onAction="#handelButtonAction" prefHeight="36.0" prefWidth="113.0" text="Add Librarian">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
