@@ -1,4 +1,4 @@
-# Library_Fx_System using javafx and jdbc
+# Library System Using JavaFx and JDBC
 
 # Objective
 #### A library management software where admin can add/view/delete librarian and librarian can add/view books, issue, view issued books and return books.
